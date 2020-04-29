@@ -23,10 +23,24 @@ router.get('/:productId', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
-    res.status(200).json({
+    res.status(201).json({
         message: 'Handeling POST request to /products'
     });
 });
+
+
+router.patch('/:productId', (req, res, next) => {
+    res.status(200).json({
+        message: 'Updated product'
+    });
+});
+
+router.delete('/:productId', (req, res, next) => {
+    res.status(200).json({
+        message: 'Deleted product'
+    });
+});
+
 
 
 module.exports = router;

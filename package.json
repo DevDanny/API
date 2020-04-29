@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/DevDanny/API/issues"
   },
-  "homepage": "https://github.com/DevDanny/API#readme"
+  "homepage": "https://github.com/DevDanny/API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
